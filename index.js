@@ -7,10 +7,6 @@ exports.run = function (options) {
 
   options = options || {};
 
-  if (options.silent === undefined) {
-    options.silent = true;
-  }
-
   if (options.dotfiles === undefined) {
     options.dotfiles = true;
   }
